@@ -1,0 +1,23 @@
+1- what is python? 
+is a language defined grammar and set of functionalities
+
+
+2- the canonical reference implementation of python 
+the most widely used distrubution of python is open source writen in c in python.org , it include standard library
+
+3- virtual enviroment :
+bwfore python run it create a directory in my machine that contain all the code based package and standard library all in this place to have prerequesite functinalities to work 
+python is battery included language everything is install in same directory
+always  let your python instalation cleasn and create venvs (pipenv || venv)
+-- to create venv: <python version path> -v venv <name of venv>
+-- to run it: source <path to venv> /bin/activate
+-- to stop it: deactivate
+-- to delete it: rm -f <name of venv>
+
+
+4- installing third party library:: third library is a library writen by someone else exemple pandas, numpy ,tz
+
+
+
+5- runing python code: interactive & script mode
+
