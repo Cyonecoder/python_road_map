@@ -14,9 +14,18 @@ always  let your python instalation cleasn and create venvs (pipenv || venv)
 -- to stop it: deactivate
 -- to delete it: rm -f <name of venv>
 
+to check my python versions : ls -l /usr/bin/python*
 
 4- installing third party library:: third library is a library writen by someone else exemple pandas, numpy ,tz
 
+wee can use pip it has more than 200k package to do it we can type :
+-pip install package-name==1.2.3
+-pip install package-name<=2.0
+-pip install package-name>2.0
+we can use a requirements.txt file:
+pip install -r requirements.txt
+
+-pip freeze : this command show all packages in my envioroment
 
 
 5- runing python code: interactive & script mode

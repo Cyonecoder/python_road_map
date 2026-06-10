@@ -1,0 +1,95 @@
+# =========================
+# Python virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# Version-specific venvs
+py39/
+py310/
+py311/
+py312/
+py313/
+
+# Venvs anywhere in the project
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+**/py39/
+**/py310/
+**/py311/
+**/py312/
+**/py313/
+
+# Your specific folders
+Section2_runing_python/py39/
+Section2_runing_python/py312/
+
+# =========================
+# Python cache/build files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# Python test/coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
